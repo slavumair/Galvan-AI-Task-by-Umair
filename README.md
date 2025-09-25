@@ -134,3 +134,4 @@ Notes:
 Super Admin credentials: Email: admin@galvan.ai Password: SuperSecurePassword123
 
 Regular users must register and verify OTP before logging in.
+For OTP, once you hit send OTP button on registration page, the OTP is displayed on the backend terminal, check there please.
