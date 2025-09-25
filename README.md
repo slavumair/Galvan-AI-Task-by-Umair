@@ -131,6 +131,6 @@ Make sure the backend is running before using the frontend for API requests to w
 
 Notes:
 
-Super Admin credentials: admin@galvan.ai / Admin@123.
+Super Admin credentials: Email: admin@galvan.ai Password: SuperSecurePassword123
 
 Regular users must register and verify OTP before logging in.
