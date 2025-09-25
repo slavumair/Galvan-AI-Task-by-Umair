@@ -72,3 +72,65 @@ Other Tools:
 JWT Tokens (Authentication)
 
 OTP Simulation (Console-based, can be extended to real email)
+
+Setup Instructions
+
+Backend Setup (Flask):
+
+Clone the repository and navigate to the backend folder:
+
+git clone https://github.com/yourusername/galvan-ai.git
+cd galvan-ai/backend
+
+
+Create a virtual environment:
+
+python -m venv .venv
+
+
+Activate the virtual environment:
+
+Windows: .venv\Scripts\activate
+
+Linux/Mac: source .venv/bin/activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the backend server:
+
+python main.py
+
+
+The backend will start on http://127.0.0.1:5000.
+
+The database (users.db) is created automatically.
+
+Frontend Setup (Next.js):
+
+Navigate to the frontend folder:
+
+cd ../frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Run the frontend development server:
+
+npm run dev
+
+
+The frontend will start on http://localhost:3000.
+
+Make sure the backend is running before using the frontend for API requests to work.
+
+Notes:
+
+Super Admin credentials: admin@galvan.ai / Admin@123.
+
+Regular users must register and verify OTP before logging in.
